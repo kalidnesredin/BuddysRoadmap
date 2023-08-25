@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.warper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background:
+          radial-gradient(
+            64% 70% at 100% 0%,
+            rgba(247, 214, 98, 0.8) 0%,
+            rgba(247, 214, 98, 0.2) 52%,
+            rgba(247, 214, 98, 0) 100%
+          ),
+          linear-gradient(
+            208deg,
+            rgba(240, 66, 42, 1) 7%,
+            rgba(240, 88, 42, 0.2) 43%,
+            rgba(240, 101, 42, 0) 64%
+          ),
+          radial-gradient(
+            115% 123% at 0% -15%,
+            rgba(231, 79, 106, 1) 1%,
+            rgba(231, 79, 106, 0.2) 67%,
+            rgba(231, 79, 106, 0) 100%
+          ),
+          linear-gradient(
+            334deg,
+            rgba(83, 208, 236, 0.8) 0%,
+            rgba(83, 208, 236, 0.2) 20%,
+            rgba(138, 137, 190, 0) 35%
+          ),
+          radial-gradient(
+            109% 149% at 4% 98%,
+            rgba(27, 49, 128, 1) 0%,
+            rgba(27, 49, 128, 0) 100%
+          ),
+          linear-gradient(
+            142deg,
+            rgba(78, 173, 235, 1) 19%,
+            rgba(78, 173, 235, 0) 99%
+          );
+}
+.main-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 50px;  
+    color: #ffffff;
+    margin: 50px;
+}
+.main-cont a{
+  text-decoration: underline;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+.kalid {
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	-webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.kalid h4{
+    align-items: center;
+    text-align: center;
+}
+@-webkit-keyframes focus-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  .about{
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .about a{
+    text-decoration: none;
+    color: black;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .about a:hover{
+    color: #ffffff;
+    background: gray;
+    transition: 1s;
+  }
+  .text{
+    line-height: 25px;
+  }
+  .text span{
+    color: black;
+    font-weight: 600;
+  }
+  .footer-social{
+    display: flex;
+    justify-content: space-between;
+  }
+.footer-social a{
+    color:#ffffff;
+    justify-content: space-around;
+    margin-right: 30px;
+    font-size: x-large;
+    padding: 20px;border-radius: 15px;
+
+}
+.footer-social ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-social a:hover{
+    color: black;
+    transition: 1s;
+}
+
+@media (max-width: 992px){
+    .warper{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+@media(max-width : 600px){
+    .warper{
+        display: flex;
+        flex-direction: column; 
+        margin-top: 0;
+        padding: 0;
+        height: fit-content;
+    }
+    .main-cont{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-cont img{
+        width: 200px;
+        height: 200px;
+        padding: 30px;
+    }
+    .about{
+        margin: 0;
+        padding: 30px;
+    }
+}
+
+
+
