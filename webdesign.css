@@ -1,0 +1,367 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   }
+
+   .navbar {
+    background-color: #004e92;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(10%);
+   }
+ 
+   .navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+   }
+ 
+   .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+   }
+ 
+   /* Landing Page Content */
+
+
+   .landing-page {
+    padding: 100px;
+    text-align: center;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+   }
+ 
+   h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+   }
+ 
+   p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+   }
+   .imgtag{
+    width: 400px;
+    height: 400px;
+   }
+   .imgtag img{
+    width: 100%;
+    height: auto;
+   }
+   button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+   }
+   .landing-page a{
+    color: #fff;
+    text-decoration: none;
+   }
+   button:hover {
+    background-color: brown;
+   }
+
+   .cont{
+    background-color: #fff;
+    padding: 50px;
+   }
+   .warper{
+    padding: 50px;
+   }
+
+   .grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .warper h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+    margin: 0;
+  }
+  .grid-item {
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .grid-item h3{
+    text-align: center;
+  }
+  
+  .grid-item a{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline; 
+  }
+  .grid-item ul{
+    line-height: 30px;
+    list-style: '👉';
+  }
+
+  .cont2{
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .warper2{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .yts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+  }
+  .kevin{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+  }
+  .kevin img{
+    border-radius: 30px;
+    text-align: center;
+  }
+  .about-kevin{
+    color: #fff;
+    text-align: center;
+  }
+  .about-kevin hr{
+    width: 100px;
+  }
+  .about-kevin a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #004e92;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .kalid{
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .kalid img{
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+  }
+  .kalid-img hr{
+    width: 100px;
+  }
+  .kalid-img a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #004e92;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+
+  footer{
+    background-color: #000428;
+    color: #fff;
+    padding: 20px;
+}
+.footer-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-logo img{
+    width: 100px;
+    margin: 20px;
+}
+.footer-link ul{
+    list-style: none;
+    margin: 20px;
+}
+.footer-link li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-link a{
+    color: #fff;
+    text-decoration: none;
+    width: 100px;
+    height: auto;
+}
+.footer-social a{
+    color: #fff;
+}
+.footer-social ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-social li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-bottom{
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+  
+}
+@media (max-width: 992px){
+ .grid-container1{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+ }
+ .grid-container2{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+ }
+ .grid-container3{
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+ }
+
+ .warper2{
+  display: block;
+  padding: 20px;
+}
+.yts{
+  display: block;
+}
+.kevin{
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.kevin img{
+  width: 100%;
+  height: auto;
+
+}
+.kalid{
+  margin-top: 30px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  
+}
+.kalid img{
+  width: 100%;
+  height: auto;
+  font-size: 10px;
+  margin-top: 60px;
+}
+
+ footer{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+ }
+}
+@media(max-width : 600px){
+  .cont{
+    margin: 0;
+    padding: 0;
+  }
+  .landing-page{
+    margin: 0;
+    padding: 30px;
+  }
+  .warper{
+   margin: 0;
+   padding: 35px;
+  }
+  .grid-container1{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .grid-container2{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .grid-container3{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .warper2{
+    display: block;
+    padding: 20px;
+  }
+  .yts{
+    display: block;
+  }
+  .kevin{
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  .kevin img{
+    width: 100%;
+    height: auto;
+
+  }
+  .kalid{
+    margin-top: 30px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .kalid img{
+    width: 100%;
+    height: auto;
+    font-size: 10px;
+    margin-top: 60px;
+  }
+  footer{
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+ }
+}
+
+
